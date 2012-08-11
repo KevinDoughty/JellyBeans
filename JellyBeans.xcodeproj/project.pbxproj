@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A206D5715D6BEC100B4F503 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A206D5615D6BEC100B4F503 /* Cocoa.framework */; };
+		0A206D6115D6BEC100B4F503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A206D5F15D6BEC100B4F503 /* InfoPlist.strings */; };
+		0A206D6315D6BEC100B4F503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A206D6215D6BEC100B4F503 /* main.m */; };
+		0A206D6715D6BEC100B4F503 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A206D6515D6BEC100B4F503 /* Credits.rtf */; };
+		0A206D6A15D6BEC100B4F503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A206D6915D6BEC100B4F503 /* AppDelegate.m */; };
+		0A206D7415D6C31200B4F503 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A206D7315D6C31200B4F503 /* MainMenu.xib */; };
+		0A206D7715D6C33A00B4F503 /* JellyBeanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A206D7615D6C33A00B4F503 /* JellyBeanView.m */; };
+		0A206D7915D6C40700B4F503 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A206D7815D6C40700B4F503 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A206D5215D6BEC100B4F503 /* JellyBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A206D5615D6BEC100B4F503 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A206D5915D6BEC100B4F503 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A206D5A15D6BEC100B4F503 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A206D5B15D6BEC100B4F503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A206D5E15D6BEC100B4F503 /* JellyBeans-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JellyBeans-Info.plist"; sourceTree = "<group>"; };
+		0A206D6015D6BEC100B4F503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A206D6215D6BEC100B4F503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A206D6415D6BEC100B4F503 /* JellyBeans-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JellyBeans-Prefix.pch"; sourceTree = "<group>"; };
+		0A206D6615D6BEC100B4F503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A206D6815D6BEC100B4F503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A206D6915D6BEC100B4F503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A206D7315D6C31200B4F503 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		0A206D7515D6C33A00B4F503 /* JellyBeanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyBeanView.h; sourceTree = "<group>"; };
+		0A206D7615D6C33A00B4F503 /* JellyBeanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyBeanView.m; sourceTree = "<group>"; };
+		0A206D7815D6C40700B4F503 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A206D4F15D6BEC100B4F503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A206D5715D6BEC100B4F503 /* Cocoa.framework in Frameworks */,
+				0A206D7915D6C40700B4F503 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A206D4715D6BEC100B4F503 = {
+			isa = PBXGroup;
+			children = (
+				0A206D5C15D6BEC100B4F503 /* JellyBeans */,
+				0A206D5D15D6BEC100B4F503 /* Supporting Files */,
+				0A206D5515D6BEC100B4F503 /* Frameworks */,
+				0A206D5315D6BEC100B4F503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A206D5315D6BEC100B4F503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A206D5215D6BEC100B4F503 /* JellyBeans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A206D5515D6BEC100B4F503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A206D7815D6C40700B4F503 /* QuartzCore.framework */,
+				0A206D5615D6BEC100B4F503 /* Cocoa.framework */,
+				0A206D5815D6BEC100B4F503 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A206D5815D6BEC100B4F503 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A206D5915D6BEC100B4F503 /* AppKit.framework */,
+				0A206D5A15D6BEC100B4F503 /* CoreData.framework */,
+				0A206D5B15D6BEC100B4F503 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A206D5C15D6BEC100B4F503 /* JellyBeans */ = {
+			isa = PBXGroup;
+			children = (
+				0A206D6815D6BEC100B4F503 /* AppDelegate.h */,
+				0A206D6915D6BEC100B4F503 /* AppDelegate.m */,
+				0A206D7515D6C33A00B4F503 /* JellyBeanView.h */,
+				0A206D7615D6C33A00B4F503 /* JellyBeanView.m */,
+				0A206D7315D6C31200B4F503 /* MainMenu.xib */,
+			);
+			path = JellyBeans;
+			sourceTree = "<group>";
+		};
+		0A206D5D15D6BEC100B4F503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A206D5E15D6BEC100B4F503 /* JellyBeans-Info.plist */,
+				0A206D5F15D6BEC100B4F503 /* InfoPlist.strings */,
+				0A206D6215D6BEC100B4F503 /* main.m */,
+				0A206D6415D6BEC100B4F503 /* JellyBeans-Prefix.pch */,
+				0A206D6515D6BEC100B4F503 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			path = JellyBeans;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A206D5115D6BEC100B4F503 /* JellyBeans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A206D7015D6BEC100B4F503 /* Build configuration list for PBXNativeTarget "JellyBeans" */;
+			buildPhases = (
+				0A206D4E15D6BEC100B4F503 /* Sources */,
+				0A206D4F15D6BEC100B4F503 /* Frameworks */,
+				0A206D5015D6BEC100B4F503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyBeans;
+			productName = JellyBeans;
+			productReference = 0A206D5215D6BEC100B4F503 /* JellyBeans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A206D4915D6BEC100B4F503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kevin Doughty";
+			};
+			buildConfigurationList = 0A206D4C15D6BEC100B4F503 /* Build configuration list for PBXProject "JellyBeans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A206D4715D6BEC100B4F503;
+			productRefGroup = 0A206D5315D6BEC100B4F503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A206D5115D6BEC100B4F503 /* JellyBeans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A206D5015D6BEC100B4F503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A206D6115D6BEC100B4F503 /* InfoPlist.strings in Resources */,
+				0A206D6715D6BEC100B4F503 /* Credits.rtf in Resources */,
+				0A206D7415D6C31200B4F503 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A206D4E15D6BEC100B4F503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A206D6315D6BEC100B4F503 /* main.m in Sources */,
+				0A206D6A15D6BEC100B4F503 /* AppDelegate.m in Sources */,
+				0A206D7715D6C33A00B4F503 /* JellyBeanView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A206D5F15D6BEC100B4F503 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A206D6015D6BEC100B4F503 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A206D6515D6BEC100B4F503 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A206D6615D6BEC100B4F503 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A206D6E15D6BEC100B4F503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A206D6F15D6BEC100B4F503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A206D7115D6BEC100B4F503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JellyBeans/JellyBeans-Prefix.pch";
+				INFOPLIST_FILE = "JellyBeans/JellyBeans-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A206D7215D6BEC100B4F503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JellyBeans/JellyBeans-Prefix.pch";
+				INFOPLIST_FILE = "JellyBeans/JellyBeans-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A206D4C15D6BEC100B4F503 /* Build configuration list for PBXProject "JellyBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A206D6E15D6BEC100B4F503 /* Debug */,
+				0A206D6F15D6BEC100B4F503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A206D7015D6BEC100B4F503 /* Build configuration list for PBXNativeTarget "JellyBeans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A206D7115D6BEC100B4F503 /* Debug */,
+				0A206D7215D6BEC100B4F503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A206D4915D6BEC100B4F503 /* Project object */;
+}

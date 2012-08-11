@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'JellyBeans' target in the 'JellyBeans' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
