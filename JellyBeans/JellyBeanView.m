@@ -194,6 +194,7 @@
 	animation.duration = self.animationDuration;
 	animation.timingFunction = self.timingFunction;
 	animation.additive = YES;
+    animation.fillMode = kCAFillModeBoth; // This is required for now 'til infinity.
 	return animation;
 }
 
