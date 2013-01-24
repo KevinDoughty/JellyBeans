@@ -145,6 +145,7 @@
             [CATransaction commit];
         }
     }
+    
 }
 -(void) layoutPass {
 	CALayer *theLayer = [self.layerEnumerator nextObject];
