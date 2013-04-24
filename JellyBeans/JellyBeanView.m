@@ -195,7 +195,7 @@
 	animation.duration = self.animationDuration;
 	animation.timingFunction = self.timingFunction;
 	animation.additive = YES;
-    animation.fillMode = kCAFillModeBoth; // This fixes the flash of un-animated content
+    animation.fillMode = kCAFillModeBoth; // This does NOT fix the flash of un-animated content
 	return animation;
 }
 
