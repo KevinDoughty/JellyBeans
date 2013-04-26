@@ -145,8 +145,8 @@
             [CATransaction commit];
         }
     }
-    
 }
+
 -(void) layoutPass {
 	CALayer *theLayer = [self.layerEnumerator nextObject];
 	if (theLayer != nil) {
@@ -154,10 +154,8 @@
 		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
         [self layoutLayer:theLayer];
         [CATransaction commit];
-		
 		[self performSelector:@selector(layoutPass) withObject:nil afterDelay:0 inModes:runLoopModes];
 	}
-	
 }
 
 -(void) layoutLayer:(CALayer*)theLayer {
@@ -165,15 +163,15 @@
 	[self animateLayer:theLayer toPoint:destinationPoint];
 }
 
-
-
 -(void) animateLayer:(CALayer*)theLayer toPoint:(CGPoint)newPoint {
 	CABasicAnimation *positionAnimation = [[CABasicAnimation alloc] init];
     positionAnimation.keyPath = @"position";
 	positionAnimation.timingFunction = self.timingFunction;
     positionAnimation.duration = self.animationDuration;
+    positionAnimation.fillMode = kCAFillModeBoth; // Fix the flash of un-animated content
 	if (self.useAdditiveAnimation) {
 		positionAnimation.additive = YES;
+        
         CGPoint oldPoint = theLayer.position;
         NSPoint deltaPoint = NSMakePoint(oldPoint.x-newPoint.x, oldPoint.y-newPoint.y);
 		theLayer.position = newPoint;
@@ -188,15 +186,6 @@
 		theLayer.position = newPoint;
 		[theLayer addAnimation:positionAnimation forKey:@"position"];
 	}
-}
-
--(CABasicAnimation *) additiveAnimationWithKeyPath:(NSString*)theKeyPath {
-	CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:theKeyPath];
-	animation.duration = self.animationDuration;
-	animation.timingFunction = self.timingFunction;
-	animation.additive = YES;
-    animation.fillMode = kCAFillModeBoth; // This does NOT fix the flash of un-animated content
-	return animation;
 }
 
 -(CGPoint) gridPointForLayer:(CALayer*)theLayer {
